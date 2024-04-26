@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.bg-nav {
+  background-color: rgb(13, 114, 183);
+}
+
+.bg-header {
+  background-color: rgb(206, 235, 255);
+}
+
+.bg-section-one {
+  background-color: rgb(255, 255, 255);
+}
+
+.bg-section-two {
+  background-color: rgb(243, 243, 243);
+}
+
+.bg-footer {
+  background-color: rgb(232, 234, 235);
+}
+
+.tl-color {
+  color: rgb(13, 114, 183);
+}
+
+.tx-color {
+  color: rgb(73, 68, 68);
+}
+
+.bt-color {
+  color: rgb(13, 114, 183);
+}
+
+.lt-decor {
+  list-style: none;
+}
+
+.lk-hover:hover {
+  color: rgb(13, 114, 183) !important;
+  text-decoration: underline;
+}
+
+.ft-szh1 {
+  font-size: 28px;
+}
+
+.ft-szh2 {
+  font-size: 20px;
+}
+
+.ft-sz16 {
+  font-size: 16px;
+}
+
+.ft-sz14 {
+  font-size: 14px;
+}
+
+.ft-sz12 {
+  font-size: 12px;
+}/*# sourceMappingURL=style.css.map */

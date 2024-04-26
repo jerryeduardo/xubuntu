@@ -1,0 +1,64 @@
+@import 'reset';
+@import 'variables';
+
+.bg-nav{
+    background-color: $primary-color;
+}
+
+.bg-header{
+    background-color: $bg-header-color;
+}
+
+.bg-section-one{
+    background-color: $bg-section-one-color;
+}
+
+.bg-section-two{
+    background-color: $bg-section-two-color;
+}
+
+.bg-footer{
+    background-color: $bg-footer-color;
+}
+
+.tl-color{
+    color: $primary-color;
+}
+
+.tx-color{
+    color: $tx-color;
+}
+
+.bt-color{
+    color: $primary-color;
+}
+
+.lt-decor{
+    list-style: none;
+}
+
+.lk-hover:hover{
+    color: $primary-color !important;
+    text-decoration: underline;
+}
+
+.ft-szh1{
+    font-size: 28px;
+}
+
+.ft-szh2{
+    font-size: 20px;
+}
+
+
+.ft-sz16{
+    font-size: 16px;
+}
+
+.ft-sz14{
+    font-size: 14px;
+}
+
+.ft-sz12{
+    font-size: 12px;
+}
