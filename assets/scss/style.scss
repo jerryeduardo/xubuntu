@@ -69,6 +69,11 @@
     border-color: $primary-color;
 }
 
+.btn-outline-primary:active{
+    border-color: $primary-color !important;
+    background-color: $primary-color !important;
+}
+
 .btn-outline-primary:hover{
     border-color: $primary-color;
     background-color: $primary-color;
@@ -76,4 +81,5 @@
 
 .link-secondary:hover{
     color: $primary-color !important;
+    text-decoration-color: $primary-color !important;
 }

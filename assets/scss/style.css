@@ -73,6 +73,11 @@
   border-color: rgb(13, 114, 183);
 }
 
+.btn-outline-primary:active {
+  border-color: rgb(13, 114, 183) !important;
+  background-color: rgb(13, 114, 183) !important;
+}
+
 .btn-outline-primary:hover {
   border-color: rgb(13, 114, 183);
   background-color: rgb(13, 114, 183);
@@ -80,4 +85,5 @@
 
 .link-secondary:hover {
   color: rgb(13, 114, 183) !important;
+  text-decoration-color: rgb(13, 114, 183) !important;
 }/*# sourceMappingURL=style.css.map */
