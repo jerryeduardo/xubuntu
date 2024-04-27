@@ -21,25 +21,25 @@
     background-color: $bg-footer-color;
 }
 
-.tl-color{
+.tl-color h1{
     color: $primary-color;
 }
 
-.tx-color{
+.tx-color h2, .tx-color p{
     color: $tx-color;
 }
 
-.bt-color{
-    color: $primary-color;
-}
-
-.lt-decor{
+.lt-decor ul{
     list-style: none;
 }
 
-.lk-hover:hover{
-    color: $primary-color !important;
-    text-decoration: underline;
+.lk-mod .nav-link{
+    color: $tx-color;
+}
+
+.lk-mod .nav-link:hover{
+    color: $primary-color;
+    text-decoration: underline; 
 }
 
 .ft-szh1{
@@ -49,7 +49,6 @@
 .ft-szh2{
     font-size: 20px;
 }
-
 
 .ft-sz16{
     font-size: 16px;
@@ -61,4 +60,20 @@
 
 .ft-sz12{
     font-size: 12px;
+}
+
+/* Modificações no Bootstrap */
+
+.btn-outline-primary{
+    color: $primary-color;
+    border-color: $primary-color;
+}
+
+.btn-outline-primary:hover{
+    border-color: $primary-color;
+    background-color: $primary-color;
+}
+
+.link-secondary:hover{
+    color: $primary-color !important;
 }

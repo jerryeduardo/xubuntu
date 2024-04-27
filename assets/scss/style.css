@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -25,24 +26,24 @@
   background-color: rgb(232, 234, 235);
 }
 
-.tl-color {
+.tl-color h1 {
   color: rgb(13, 114, 183);
 }
 
-.tx-color {
+.tx-color h2, .tx-color p {
   color: rgb(73, 68, 68);
 }
 
-.bt-color {
-  color: rgb(13, 114, 183);
-}
-
-.lt-decor {
+.lt-decor ul {
   list-style: none;
 }
 
-.lk-hover:hover {
-  color: rgb(13, 114, 183) !important;
+.lk-mod .nav-link {
+  color: rgb(73, 68, 68);
+}
+
+.lk-mod .nav-link:hover {
+  color: rgb(13, 114, 183);
   text-decoration: underline;
 }
 
@@ -64,4 +65,19 @@
 
 .ft-sz12 {
   font-size: 12px;
+}
+
+/* Modificações no Bootstrap */
+.btn-outline-primary {
+  color: rgb(13, 114, 183);
+  border-color: rgb(13, 114, 183);
+}
+
+.btn-outline-primary:hover {
+  border-color: rgb(13, 114, 183);
+  background-color: rgb(13, 114, 183);
+}
+
+.link-secondary:hover {
+  color: rgb(13, 114, 183) !important;
 }/*# sourceMappingURL=style.css.map */
