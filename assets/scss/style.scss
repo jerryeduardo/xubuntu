@@ -64,6 +64,10 @@
 
 /* Modificações no Bootstrap */
 
+.dropdown-item:active{
+    background-color: $primary-color;
+}
+
 .btn-outline-primary{
     color: $primary-color;
     border-color: $primary-color;

@@ -68,6 +68,10 @@
 }
 
 /* Modificações no Bootstrap */
+.dropdown-item:active {
+  background-color: rgb(13, 114, 183);
+}
+
 .btn-outline-primary {
   color: rgb(13, 114, 183);
   border-color: rgb(13, 114, 183);
